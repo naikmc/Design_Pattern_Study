@@ -7,8 +7,8 @@ public class UserModel {
         user = new User("Mahesh", "Naik", 18);
     }
 
-    public String getUserData(){
-       return user.getLastName()+" ,"+user.getFirstName();
+    public User getUser(){
+       return user;
     }
 
 }

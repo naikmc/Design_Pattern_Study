@@ -16,7 +16,7 @@ public class UserModelTest {
     }
 
     @Test
-    public void getUserData() {
-        Assert.assertEquals("Naik ,Mahesh", userModel.getUserData());
+    public void getUserName() {
+        Assert.assertEquals("Mahesh", userModel.getUser().getFirstName());
     }
 }

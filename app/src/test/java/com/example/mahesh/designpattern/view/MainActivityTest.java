@@ -21,6 +21,6 @@ public class MainActivityTest {
 
         activity.findViewById(R.id.get_data).performClick();
 
-        Assert.assertEquals("Naik ,Mahesh",  ((TextView)activity.findViewById(R.id.text_data)).getText());
+        Assert.assertEquals("Naik, Mahesh",  ((TextView)activity.findViewById(R.id.text_data)).getText());
     }
 }
