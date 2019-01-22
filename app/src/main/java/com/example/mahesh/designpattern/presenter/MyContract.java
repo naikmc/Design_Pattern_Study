@@ -1,4 +1,4 @@
-package com.example.mahesh.designpattern.view;
+package com.example.mahesh.designpattern.presenter;
 
 public interface MyContract {
 

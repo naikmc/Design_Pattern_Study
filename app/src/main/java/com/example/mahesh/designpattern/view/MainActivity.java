@@ -7,6 +7,8 @@ import android.widget.TextView;
 
 import com.example.mahesh.designpattern.R;
 import com.example.mahesh.designpattern.model.UserModel;
+import com.example.mahesh.designpattern.presenter.MyContract;
+import com.example.mahesh.designpattern.presenter.MyPresenter;
 
 public class MainActivity extends AppCompatActivity implements MyContract.View{
    private UserModel userModel;

@@ -2,6 +2,8 @@ package com.example.mahesh.designpattern.view;
 
 import com.example.mahesh.designpattern.model.User;
 import com.example.mahesh.designpattern.model.UserModel;
+import com.example.mahesh.designpattern.presenter.MyContract;
+import com.example.mahesh.designpattern.presenter.MyPresenter;
 
 import org.junit.Before;
 import org.junit.Test;
